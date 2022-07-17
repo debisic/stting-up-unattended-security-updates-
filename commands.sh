@@ -5,7 +5,7 @@ sudo apt update && sudo apt upgrade -y
 sudo apt install unattended-upgrades apt-listchanges bsd-mailx -y
 
 #Turn on unattended security updates, run:
-sudo dpkg-reconfigure -plow unattended-upgrades -y
+sudo dpkg-reconfigure -plow unattended-upgrades 
 
 #Configure automatic updates, enter
 sudo vi /etc/apt/apt.conf.d/50unattended-upgrades
